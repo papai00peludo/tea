@@ -32,7 +32,7 @@ export default function App() {
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="relative">
           <div className="bg-white rounded-3xl shadow-2xl p-6">
             <img
-              src="https://i.imgur.com/0DBqzbx.png"
+              src="ss.png"
               alt="Capa do eBook TEA — Tratar, aprender e acolher"
               className="mx-auto rounded-2xl w-full max-w-md object-contain"
             />
