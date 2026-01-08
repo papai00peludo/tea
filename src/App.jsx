@@ -33,7 +33,7 @@ export default function App() {
           <div className="bg-white rounded-3xl shadow-2xl p-6">
             <img
               src="ss.png"
-              alt="Capa do eBook TEA — Tratar, aprender e acolher"
+              alt="ss.png"
               className="mx-auto rounded-2xl w-full max-w-md object-contain"
             />
           </div>
