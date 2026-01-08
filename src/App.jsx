@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { Check } from "lucide-react";
-import capaEbook from "./assets/capa-ebook.png";
+import capa from "./assets/ss.png";
 
 
 export default function App() {
@@ -34,10 +34,11 @@ export default function App() {
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="relative">
           <div className="bg-white rounded-3xl shadow-2xl p-6">
             <img
-              src={capaEbook}
+              src={capa}
               alt="Capa do eBook TEA"
               className="mx-auto rounded-2xl w-full max-w-md object-contain"
             />
+
           </div>
           <div className="absolute inset-0 -z-10 blur-3xl bg-pink-200/40 rounded-full" />
         </motion.div>
